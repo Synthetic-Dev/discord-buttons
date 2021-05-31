@@ -10,7 +10,7 @@ declare class MessageButton {
     type: number;
     setStyle(style: string): MessageButton;
     setLabel(label: string): MessageButton;
-    setDisabled(boolean: boolean): MessageButton;
+    setDisabled(boolean?: boolean): MessageButton;
     setURL(url: string): MessageButton;
     setID(id: string): MessageButton;
     toJSON(): {
